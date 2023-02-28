@@ -216,6 +216,11 @@ h2{
   opacity: .9;
 }
 
+.services-paragraph{
+  opacity: .6;
+  line-height: 2rem;
+}
+
 .content-paragraph{
   line-height: 2.5rem;
   opacity: .6;

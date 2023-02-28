@@ -72,8 +72,16 @@
     background-size: cover;
     margin: 0;
     padding: 0;
-    height: 200px;
+    max-height: 200px;
+
   }
+
+  .services-paragraph{
+    opacity: .6;
+    line-height: 1.5rem;
+  }
+
+
 
   .about-section{
     display: flex;
