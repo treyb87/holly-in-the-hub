@@ -27,9 +27,10 @@ body{
 
 .nav-hero{
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .logo{
@@ -68,10 +69,6 @@ body{
   list-style: none;
 }
 
-/* .social{
-  justify-content: flex-start;
-} */
-
 .phone-number{
   padding-left: 1.5rem;
 }
@@ -108,16 +105,14 @@ i{
 .profile-image{
   background-image: url(images/street.JPG);
   background-size: 200%;
-  background-position: -115px center  ;
+  background-position: -115px center;
   background-repeat: no-repeat;
   width: 350px;
   height: 350px;
   border: 5px solid var(--dark);
   border-radius: 50%;
-  /* flex-grow: 1; */
   align-self: center;
 }
-/* .nav-hero{position: relative;} */
 
 .hero{
   width: 100%;
@@ -159,7 +154,6 @@ i{
   color: var(--light);
   letter-spacing: 3px;
   text-align: center;
-  /* opacity: .8; */
   padding: 1rem;
   font-weight: 600;
   font-size: 3rem;
@@ -174,6 +168,9 @@ i{
   font-size: 1.2rem;
 }
 
+.services{
+  margin-top: 4rem;
+}
 .section{
   flex-wrap: wrap;
   min-height: 500px;
@@ -183,18 +180,20 @@ i{
   padding: 0 2rem;
 }
 
-.about-img{
-    background-image: url(images/doorkey.jpg);
-    background-position: center;
-    min-height: 400px;
-    width: 50%;
-}
 
 .image-container{
   width: 50%;
   min-height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.about-img{
+    background-image: url(images/home-sold-bigger.jpg);
+    background-position: 100px 0;
+    min-height: 400px;
+    background-size: 121%;
+    
+    width: 50%;
 }
 
 .content-box{
@@ -222,7 +221,7 @@ h2{
 }
 
 .content-paragraph{
-  line-height: 2.5rem;
+  line-height: 2rem;
   opacity: .6;
 }
 
@@ -231,47 +230,6 @@ h2{
 }
 /* contact section */
 
-form{
-  padding: 2rem;
-}
-
-.form-group label{
-  display: block;
-  font-size: 1.25rem;
-  margin-top: 1rem;
-}
-
-.form-group input{
-  width: 320px;
-  padding: 5px;
-  font-size: 1.2rem;
-  color: #333;
-}
-
-textarea{
-  font-size: 1.2rem;
-  font-family: var(--font-1);
-}
-
-input.invalid{
-  border: 1px solid red;
-
-}
-.error-hint{
-  color: red;
-}
-
-.hidden{
-  display: none;
-}
-
-hr{
-  height: 1px;
-  color: #333;
-  opacity: .5;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
 
 button{
   padding: 10px;
