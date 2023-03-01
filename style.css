@@ -294,6 +294,7 @@ footer{
   display: flex;
   width: auto;
   list-style: none;
+  align-items: center;
 }
 
 footer i{
@@ -311,7 +312,7 @@ footer i{
 
 .footer-call i{
   font-size: 1.25rem;
-  padding-right: 1rem;
+  padding: 1rem;
 }
 
 .footer-number{
